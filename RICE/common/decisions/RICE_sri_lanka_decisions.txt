@@ -97,13 +97,13 @@ RICE_sri_lanka_struggle_ending_unite_sangha_decision = {
 	}
 
 	effect = {
-		# if = { # TODO Try to restore these after analyzing the crashes
-		# 	limit = { has_dlc_feature = legends }
-		# 	RICE_sri_lanka_legend_seed_struggle_ending_effect = {
-		# 		ENDER = root
-		# 		STRUGGLE = RICE_sri_lanka_struggle
-		# 	}
-		# }
+		if = {
+			limit = { has_dlc_feature = legends }
+			RICE_sri_lanka_legend_seed_struggle_ending_effect = {
+				ENDER = root
+				STRUGGLE = RICE_sri_lanka_struggle
+			}
+		}
 		if = {
 			limit = { has_ach_dlc_trigger = yes }
 			add_character_flag = ach_ended_struggle
@@ -391,13 +391,13 @@ RICE_sri_lanka_struggle_ending_foreign_sangha_decision = {
 	}
 
 	effect = {
-		# if = {
-		# 	limit = { has_dlc_feature = legends }
-		# 	RICE_sri_lanka_legend_seed_struggle_ending_effect = {
-		# 		ENDER = root
-		# 		STRUGGLE = RICE_sri_lanka_struggle
-		# 	}
-		# }
+		if = {
+			limit = { has_dlc_feature = legends }
+			RICE_sri_lanka_legend_seed_struggle_ending_effect = {
+				ENDER = root
+				STRUGGLE = RICE_sri_lanka_struggle
+			}
+		}
 		if = {
 			limit = { has_ach_dlc_trigger = yes }
 			add_character_flag = ach_ended_struggle

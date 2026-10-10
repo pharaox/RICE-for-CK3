@@ -141,13 +141,13 @@ RICE_greenland_struggle_ending_integration_decision = {
 	# }
 
 	effect = {		
-		# if = { # TODO Try to restore these after analyzing the crashes
-		# 	limit = { has_dlc_feature = legends }
-		# 	RICE_north_atlantic_legend_seed_greenland_struggle_ending_effect = {
-		# 		ENDER = root
-		# 		STRUGGLE = RICE_greenland_struggle
-		# 	}
-		# }
+		if = {
+			limit = { has_dlc_feature = legends }
+			RICE_north_atlantic_legend_seed_greenland_struggle_ending_effect = {
+				ENDER = root
+				STRUGGLE = RICE_greenland_struggle
+			}
+		}
 		if = {
 			limit = { has_ach_dlc_trigger = yes }
 			add_character_flag = ach_ended_struggle
@@ -252,13 +252,13 @@ RICE_greenland_struggle_ending_indigenous_decision = {
 	# }
 
 	effect = {
-		# if = {
-		# 	limit = { has_dlc_feature = legends }
-		# 	RICE_north_atlantic_legend_seed_greenland_struggle_sunset_invasion_ending_effect = {
-		# 		ENDER = root
-		# 		STRUGGLE = RICE_greenland_struggle
-		# 	}
-		# }
+		if = {
+			limit = { has_dlc_feature = legends }
+			RICE_north_atlantic_legend_seed_greenland_struggle_sunset_invasion_ending_effect = {
+				ENDER = root
+				STRUGGLE = RICE_greenland_struggle
+			}
+		}
 		if = {
 			limit = { has_ach_dlc_trigger = yes }
 			add_character_flag = ach_ended_struggle
