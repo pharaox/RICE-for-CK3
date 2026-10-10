@@ -1,5 +1,5 @@
 NAME := RICE_unofficial
-TITLE := RICE Unofficial Update to 1.20
+TITLE := RICE Unofficial Update
 VERSION := 1.20.0
 SRC := RICE
 
