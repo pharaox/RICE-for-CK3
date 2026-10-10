@@ -6,8 +6,11 @@
 		OR = {
 			any_held_title = {
 				tier = tier_county
-				any_county_province = {
-					geographical_region = RICE_greater_egypt	
+				trigger_if = {
+					limit = { tier = tier_county }
+					any_county_province = {
+						geographical_region = RICE_greater_egypt	
+					}
 				}
 			}
 			AND = {
@@ -40,8 +43,11 @@
 				text = RICE_greater_egypt_geographical_req
 				any_held_title = {
 					tier = tier_county
-					any_county_province = {
-						geographical_region = RICE_greater_egypt	
+					trigger_if = {
+						limit = { tier = tier_county }
+						any_county_province = {
+							geographical_region = RICE_greater_egypt	
+						}
 					}
 				}
 			}
