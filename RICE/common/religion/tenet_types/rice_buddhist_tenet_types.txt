@@ -80,13 +80,13 @@ tenet_rice_meritorious_merchant_donors = {
 	piety_cost = {
 		if = {
 			limit = {
-				religion_tag = buddhism_religion
+				rite_religion_tag = buddhism_religion
 			}
 			value = faith_tenet_cost_low
 		}
 		else_if = {
 			limit = {
-				has_doctrine = pagan_hostility_doctrine
+				rite_has_doctrine = pagan_hostility_doctrine
 			}
 			value = faith_tenet_cost_high
 		}

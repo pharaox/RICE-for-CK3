@@ -6,23 +6,23 @@ rice_baptism_purification_doctrine = {		# Baptism
 	piety_cost = {
 		value = faith_doctrine_cost_mid
 		if = {
-			limit = { has_doctrine = rice_baptism_purification_doctrine }
+			limit = { rite_has_doctrine = rice_baptism_purification_doctrine }
 			multiply = 0
 		}
 		else_if = {
-			limit = { has_doctrine = rice_food_purification_doctrine }
+			limit = { rite_has_doctrine = rice_food_purification_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 		else_if = {
-			limit = { has_doctrine = rice_prayer_purification_doctrine }
+			limit = { rite_has_doctrine = rice_prayer_purification_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 		else_if = {
-			limit = { has_doctrine = rice_light_purification_doctrine }
+			limit = { rite_has_doctrine = rice_light_purification_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_two_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_prayer_love_doctrine }
+			limit = { rite_has_doctrine = rice_prayer_love_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 	}
@@ -42,23 +42,23 @@ rice_food_purification_doctrine = {		# Food
 	piety_cost = {
 		value = faith_doctrine_cost_mid
 		if = {
-			limit = { has_doctrine = rice_food_purification_doctrine }
+			limit = { rite_has_doctrine = rice_food_purification_doctrine }
 			multiply = 0
 		}
 		else_if = {
-			limit = { has_doctrine = rice_baptism_purification_doctrine }
+			limit = { rite_has_doctrine = rice_baptism_purification_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 		else_if = {
-			limit = { has_doctrine = rice_prayer_purification_doctrine }
+			limit = { rite_has_doctrine = rice_prayer_purification_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 		else_if = {
-			limit = { has_doctrine = rice_light_purification_doctrine }
+			limit = { rite_has_doctrine = rice_light_purification_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_two_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_prayer_love_doctrine }
+			limit = { rite_has_doctrine = rice_prayer_love_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 	}
@@ -82,23 +82,23 @@ rice_prayer_love_doctrine = {		# Procreation
 	piety_cost = {
 		value = faith_doctrine_cost_mid
 		if = {
-			limit = { has_doctrine = rice_prayer_love_doctrine }
+			limit = { rite_has_doctrine = rice_prayer_love_doctrine }
 			multiply = 0
 		}
 		else_if = {
-			limit = { has_doctrine = rice_baptism_purification_doctrine }
+			limit = { rite_has_doctrine = rice_baptism_purification_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_food_purification_doctrine }
+			limit = { rite_has_doctrine = rice_food_purification_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_light_purification_doctrine }
+			limit = { rite_has_doctrine = rice_light_purification_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_prayer_purification_doctrine }
+			limit = { rite_has_doctrine = rice_prayer_purification_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 	}
@@ -132,23 +132,23 @@ rice_light_purification_doctrine = {		# Manichean doctrine
 	piety_cost = {
 		value = faith_doctrine_cost_mid
 		if = {
-			limit = { has_doctrine = rice_light_purification_doctrine }
+			limit = { rite_has_doctrine = rice_light_purification_doctrine }
 			multiply = 0
 		}
 		else_if = {
-			limit = { has_doctrine = rice_baptism_purification_doctrine }
+			limit = { rite_has_doctrine = rice_baptism_purification_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_two_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_food_purification_doctrine }
+			limit = { rite_has_doctrine = rice_food_purification_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_two_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_prayer_purification_doctrine }
+			limit = { rite_has_doctrine = rice_prayer_purification_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_two_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_prayer_love_doctrine }
+			limit = { rite_has_doctrine = rice_prayer_love_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 	}
@@ -173,23 +173,23 @@ rice_prayer_purification_doctrine = {		# Generic doctrine
 	piety_cost = {
 		value = faith_doctrine_cost_mid
 		if = {
-			limit = { has_doctrine = rice_prayer_purification_doctrine }
+			limit = { rite_has_doctrine = rice_prayer_purification_doctrine }
 			multiply = 0
 		}
 		else_if = {
-			limit = { has_doctrine = rice_baptism_purification_doctrine }
+			limit = { rite_has_doctrine = rice_baptism_purification_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 		else_if = {
-			limit = { has_doctrine = rice_food_purification_doctrine }
+			limit = { rite_has_doctrine = rice_food_purification_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 		else_if = {
-			limit = { has_doctrine = rice_light_purification_doctrine }
+			limit = { rite_has_doctrine = rice_light_purification_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_two_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_prayer_love_doctrine }
+			limit = { rite_has_doctrine = rice_prayer_love_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 	}

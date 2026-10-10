@@ -6,19 +6,19 @@ rice_mahayana_canon_doctrine = {		# Chinese Canon/Dazangjing
 	piety_cost = {
 		value = faith_doctrine_cost_mid
 		if = {
-			limit = { has_doctrine = rice_mahayana_canon_doctrine }
+			limit = { rite_has_doctrine = rice_mahayana_canon_doctrine }
 			multiply = 0
 		}
 		else_if = {
-			limit = { has_doctrine = rice_theravada_canon_doctrine }
+			limit = { rite_has_doctrine = rice_theravada_canon_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 		else_if = {
-			limit = { has_doctrine = rice_vajrayana_canon_doctrine }
+			limit = { rite_has_doctrine = rice_vajrayana_canon_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 		else_if = {
-			limit = { has_doctrine = rice_pudgalavada_canon_doctrine }
+			limit = { rite_has_doctrine = rice_pudgalavada_canon_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 	}
@@ -37,19 +37,19 @@ rice_theravada_canon_doctrine = {		# Pali Canon
 	piety_cost = {
 		value = faith_doctrine_cost_mid
 		if = {
-			limit = { has_doctrine = rice_theravada_canon_doctrine }
+			limit = { rite_has_doctrine = rice_theravada_canon_doctrine }
 			multiply = 0
 		}
 		else_if = {
-			limit = { has_doctrine = rice_mahayana_canon_doctrine }
+			limit = { rite_has_doctrine = rice_mahayana_canon_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 		else_if = {
-			limit = { has_doctrine = rice_vajrayana_canon_doctrine }
+			limit = { rite_has_doctrine = rice_vajrayana_canon_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 		else_if = {
-			limit = { has_doctrine = rice_pudgalavada_canon_doctrine }
+			limit = { rite_has_doctrine = rice_pudgalavada_canon_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 	}
@@ -68,19 +68,19 @@ rice_vajrayana_canon_doctrine = {		# Tibetan Canon/Kanngur and Tanggur
 	piety_cost = {
 		value = faith_doctrine_cost_mid
 		if = {
-			limit = { has_doctrine = rice_vajrayana_canon_doctrine }
+			limit = { rite_has_doctrine = rice_vajrayana_canon_doctrine }
 			multiply = 0
 		}
 		else_if = {
-			limit = { has_doctrine = rice_mahayana_canon_doctrine }
+			limit = { rite_has_doctrine = rice_mahayana_canon_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 		else_if = {
-			limit = { has_doctrine = rice_theravada_canon_doctrine }
+			limit = { rite_has_doctrine = rice_theravada_canon_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 		else_if = {
-			limit = { has_doctrine = rice_pudgalavada_canon_doctrine }
+			limit = { rite_has_doctrine = rice_pudgalavada_canon_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 	}
@@ -101,19 +101,19 @@ rice_pudgalavada_canon_doctrine = {		# Pudgalavada/Sammitiya Canon
 	piety_cost = {
 		value = faith_doctrine_cost_mid
 		if = {
-			limit = { has_doctrine = rice_pudgalavada_canon_doctrine }
+			limit = { rite_has_doctrine = rice_pudgalavada_canon_doctrine }
 			multiply = 0
 		}
 		else_if = {
-			limit = { has_doctrine = rice_mahayana_canon_doctrine }
+			limit = { rite_has_doctrine = rice_mahayana_canon_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_theravada_canon_doctrine }
+			limit = { rite_has_doctrine = rice_theravada_canon_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_vajrayana_canon_doctrine }
+			limit = { rite_has_doctrine = rice_vajrayana_canon_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 	}

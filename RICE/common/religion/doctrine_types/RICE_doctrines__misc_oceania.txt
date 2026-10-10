@@ -6,15 +6,15 @@ rice_kava_role_social_doctrine = {
 	piety_cost = {
 		value = faith_doctrine_cost_mid
 		if = {
-			limit = { has_doctrine = rice_kava_role_social_doctrine }
+			limit = { rite_has_doctrine = rice_kava_role_social_doctrine }
 			multiply = 0
 		}
 		else_if = {
-			limit = { has_doctrine = rice_kava_role_ceremonial_doctrine }
+			limit = { rite_has_doctrine = rice_kava_role_ceremonial_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 		else_if = {
-			limit = { has_doctrine = rice_kava_role_medicinal_doctrine }
+			limit = { rite_has_doctrine = rice_kava_role_medicinal_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
@@ -29,15 +29,15 @@ rice_kava_role_ceremonial_doctrine = {
 	piety_cost = {
 		value = faith_doctrine_cost_mid
 		if = {
-			limit = { has_doctrine = rice_kava_role_ceremonial_doctrine }
+			limit = { rite_has_doctrine = rice_kava_role_ceremonial_doctrine }
 			multiply = 0
 		}
 		else_if = {
-			limit = { has_doctrine = rice_kava_role_social_doctrine }
+			limit = { rite_has_doctrine = rice_kava_role_social_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 		else_if = {
-			limit = { has_doctrine = rice_kava_role_medicinal_doctrine }
+			limit = { rite_has_doctrine = rice_kava_role_medicinal_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
@@ -54,15 +54,15 @@ rice_kava_role_medicinal_doctrine = {
 	piety_cost = {
 		value = faith_doctrine_cost_mid
 		if = {
-			limit = { has_doctrine = rice_kava_role_medicinal_doctrine }
+			limit = { rite_has_doctrine = rice_kava_role_medicinal_doctrine }
 			multiply = 0
 		}
 		else_if = {
-			limit = { has_doctrine = rice_kava_role_social_doctrine }
+			limit = { rite_has_doctrine = rice_kava_role_social_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 		else_if = {
-			limit = { has_doctrine = rice_kava_role_ceremonial_doctrine }
+			limit = { rite_has_doctrine = rice_kava_role_ceremonial_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}

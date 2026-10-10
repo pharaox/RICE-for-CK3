@@ -7,15 +7,15 @@ rice_west_iranian_yazidi_doctrine = {		# Yazidism
 	piety_cost = {
 		value = faith_doctrine_cost_mid
 		if = {
-			limit = { has_doctrine = rice_west_iranian_yazidi_doctrine }
+			limit = { rite_has_doctrine = rice_west_iranian_yazidi_doctrine }
 			multiply = 0
 		}
 		else_if = {
-			limit = { has_doctrine = rice_west_iranian_yarsani_doctrine }
+			limit = { rite_has_doctrine = rice_west_iranian_yarsani_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_two_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_west_iranian_kurdish_pagan_doctrine }
+			limit = { rite_has_doctrine = rice_west_iranian_kurdish_pagan_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_two_step
 		}
 	}
@@ -38,15 +38,15 @@ rice_west_iranian_yarsani_doctrine = {		# Yarsanism
 	piety_cost = {
 		value = faith_doctrine_cost_mid
 		if = {
-			limit = { has_doctrine = rice_west_iranian_yarsani_doctrine }
+			limit = { rite_has_doctrine = rice_west_iranian_yarsani_doctrine }
 			multiply = 0
 		}
 		else_if = {
-			limit = { has_doctrine = rice_west_iranian_yazidi_doctrine }
+			limit = { rite_has_doctrine = rice_west_iranian_yazidi_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_two_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_west_iranian_kurdish_pagan_doctrine }
+			limit = { rite_has_doctrine = rice_west_iranian_kurdish_pagan_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_two_step
 		}
 	}
@@ -73,15 +73,15 @@ rice_west_iranian_kurdish_pagan_doctrine = {		# Yarsanism
 	piety_cost = {
 		value = faith_doctrine_cost_mid
 		if = {
-			limit = { has_doctrine = rice_west_iranian_kurdish_pagan_doctrine }
+			limit = { rite_has_doctrine = rice_west_iranian_kurdish_pagan_doctrine }
 			multiply = 0
 		}
 		else_if = {
-			limit = { has_doctrine = rice_west_iranian_yazidi_doctrine }
+			limit = { rite_has_doctrine = rice_west_iranian_yazidi_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_two_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_west_iranian_yarsani_doctrine }
+			limit = { rite_has_doctrine = rice_west_iranian_yarsani_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_two_step
 		}
 	}

@@ -5,23 +5,23 @@
 	piety_cost = {
 		value = faith_doctrine_cost_high
 		if = {
-			limit = { has_doctrine = rice_zoroastrian_sassanian_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_sassanian_doctrine }
 			multiply = 0
 		}
 		else_if = {
-			limit = { has_doctrine = rice_zoroastrian_armenian_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_armenian_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_two_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_zoroastrian_georgian_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_georgian_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_two_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_zoroastrian_eastern_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_eastern_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_two_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_zoroastrian_no_yazatas_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_no_yazatas_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 	}
@@ -39,23 +39,23 @@ rice_zoroastrian_armenian_doctrine = {		# Caucasus variations of Zoroastrianism
 	piety_cost = {
 		value = faith_doctrine_cost_high
 		if = {
-			limit = { has_doctrine = rice_zoroastrian_armenian_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_armenian_doctrine }
 			multiply = 0
 		}
 		else_if = {
-			limit = { has_doctrine = rice_zoroastrian_sassanian_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_sassanian_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_two_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_zoroastrian_georgian_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_georgian_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 		else_if = {
-			limit = { has_doctrine = rice_zoroastrian_eastern_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_eastern_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 		else_if = {
-			limit = { has_doctrine = rice_zoroastrian_no_yazatas_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_no_yazatas_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 	}
@@ -72,23 +72,23 @@ rice_zoroastrian_georgian_doctrine = {		# Georgian variations of Zoroastrianism
 	piety_cost = {
 		value = faith_doctrine_cost_high
 		if = {
-			limit = { has_doctrine = rice_zoroastrian_georgian_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_georgian_doctrine }
 			multiply = 0
 		}
 		else_if = {
-			limit = { has_doctrine = rice_zoroastrian_sassanian_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_sassanian_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_two_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_zoroastrian_armenian_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_armenian_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 		else_if = {
-			limit = { has_doctrine = rice_zoroastrian_eastern_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_eastern_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 		else_if = {
-			limit = { has_doctrine = rice_zoroastrian_no_yazatas_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_no_yazatas_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 	}
@@ -105,23 +105,23 @@ rice_zoroastrian_eastern_doctrine = {		# Sogdian/Bactrian/Khwarezmian variations
 	piety_cost = {
 		value = faith_doctrine_cost_high
 		if = {
-			limit = { has_doctrine = rice_zoroastrian_eastern_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_eastern_doctrine }
 			multiply = 0
 		}
 		else_if = {
-			limit = { has_doctrine = rice_zoroastrian_sassanian_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_sassanian_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_two_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_zoroastrian_armenian_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_armenian_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 		else_if = {
-			limit = { has_doctrine = rice_zoroastrian_georgian_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_georgian_doctrine }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 		else_if = {
-			limit = { has_doctrine = rice_zoroastrian_no_yazatas_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_no_yazatas_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 	}
@@ -138,23 +138,23 @@ rice_zoroastrian_no_yazatas_doctrine = {		# Sogdian/Bactrian/Khwarezmian variati
 	piety_cost = {
 		value = faith_doctrine_cost_high
 		if = {
-			limit = { has_doctrine = rice_zoroastrian_no_yazatas_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_no_yazatas_doctrine }
 			multiply = 0
 		}
 		else_if = {
-			limit = { has_doctrine = rice_zoroastrian_sassanian_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_sassanian_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_zoroastrian_armenian_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_armenian_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_zoroastrian_georgian_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_georgian_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 		else_if = {
-			limit = { has_doctrine = rice_zoroastrian_eastern_doctrine }
+			limit = { rite_has_doctrine = rice_zoroastrian_eastern_doctrine }
 			multiply = faith_changed_doctrine_cost_mult_three_step
 		}
 	}
