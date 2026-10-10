@@ -334,7 +334,7 @@ sardinia.0004 = {
 				faith.religious_head_title ?= title:k_papal_state
 			}
 		}
-		set_character_faith_with_conversion = faith:catholic
+		set_character_faith = faith:catholic
 		ai_chance = {
 			base = 50
 			modifier = {
@@ -370,7 +370,7 @@ sardinia.0004 = {
 				faith.religious_head_title ?= title:k_orthodox
 			}
 		}
-		set_character_faith_with_conversion = faith:orthodox
+		set_character_faith = faith:orthodox
 		ai_chance = {
 			base = 50
 			modifier = {

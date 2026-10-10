@@ -389,7 +389,7 @@ RICE_south_ethiopia_fandaanano_decision = {
 		}
 
 		show_as_tooltip = {
-			set_character_faith_with_conversion = faith:fandaanano
+			set_character_faith = faith:fandaanano
 			root.capital_county = {
 				set_county_faith = faith:fandaanano
 			}

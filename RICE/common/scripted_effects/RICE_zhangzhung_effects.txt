@@ -956,7 +956,7 @@ RICE_convert_from_bon_lamaism_effect = {
 	}
 	show_as_tooltip = { set_character_rite = rite:lamaism }
 	hidden_effect = {
-		set_character_rite_with_conversion = rite:lamaism
+		set_character_rite = rite:lamaism
 	}
 	faith:vajrayana_faith = {
 		change_fervor = {
@@ -975,7 +975,7 @@ RICE_convert_from_bon_new_bon_effect = {
 	}
 	show_as_tooltip = { set_character_faith = faith:bon_faith }
 	hidden_effect = {
-		set_character_faith_with_conversion = faith:bon_faith
+		set_character_faith = faith:bon_faith
 	}
 	faith:bon_faith = {
 		change_fervor = {
@@ -994,7 +994,7 @@ RICE_convert_from_bon_mahayana_effect = {
 	}
 	show_as_tooltip = { set_character_faith = faith:mahayana_faith }
 	hidden_effect = {
-		set_character_faith_with_conversion = faith:mahayana_faith
+		set_character_faith = faith:mahayana_faith
 	}
 	faith:mahayana_faith = {
 		change_fervor = {
@@ -1013,7 +1013,7 @@ RICE_convert_from_bon_vajrayana_effect = {
 	}
 	show_as_tooltip = { set_character_faith = faith:vajrayana_faith }
 	hidden_effect = {
-		set_character_faith_with_conversion = faith:vajrayana_faith
+		set_character_faith = faith:vajrayana_faith
 	}
 	faith:vajrayana_faith = {
 		change_fervor = {
@@ -1032,7 +1032,7 @@ RICE_convert_from_bon_manichean_effect = {
 	}
 	show_as_tooltip = { set_character_rite = rite:manichean }
 	hidden_effect = {
-		set_character_rite_with_conversion = rite:manichean
+		set_character_rite = rite:manichean
 	}
 	faith:manichaean_faith = {
 		change_fervor = {
@@ -1051,7 +1051,7 @@ RICE_convert_from_bon_shaivism_effect = {
 	}
 	show_as_tooltip = { set_character_rite = rite:shaivism }
 	hidden_effect = {
-		set_character_rite_with_conversion = rite:shaivism
+		set_character_rite = rite:shaivism
 	}
 	faith:shaiva_faith = {
 		change_fervor = {
@@ -1070,7 +1070,7 @@ RICE_convert_from_bon_zhengyi_effect = {
 	}
 	show_as_tooltip = { set_character_faith = faith:zhengyi }
 	hidden_effect = {
-		set_character_faith_with_conversion = faith:zhengyi
+		set_character_faith = faith:zhengyi
 	}
 	faith:zhengyi = {
 		change_fervor = {
@@ -1089,7 +1089,7 @@ RICE_convert_from_bon_nestorian_effect = {
 	}
 	show_as_tooltip = { set_character_faith = faith:nestorian }
 	hidden_effect = {
-		set_character_faith_with_conversion = faith:nestorian
+		set_character_faith = faith:nestorian
 	}
 	faith:nestorian = {
 		change_fervor = {
@@ -1108,7 +1108,7 @@ RICE_convert_from_bon_maturidi_effect = {
 	}
 	show_as_tooltip = { set_character_rite = rite:hanafi }
 	hidden_effect = {
-		set_character_rite_with_conversion = rite:hanafi
+		set_character_rite = rite:hanafi
 	}
 	faith:sunni = {
 		change_fervor = {
@@ -1127,7 +1127,7 @@ RICE_convert_from_bon_khurmazta_effect = {
 	}
 	show_as_tooltip = { set_character_faith = faith:khurmazta }
 	hidden_effect = {
-		set_character_faith_with_conversion = faith:khurmazta
+		set_character_faith = faith:khurmazta
 	}
 	faith:khurmazta = {
 		change_fervor = {

@@ -1423,7 +1423,7 @@ RICE_create_fandaanano_effect = {
 		save_scope_as = fandaanano
 		remove_variable = block_conversion_till_nebulous_circumstances
 	}
-	set_character_faith_with_conversion = faith:fandaanano
+	set_character_faith = faith:fandaanano
 	root.capital_county ?= {
 		set_county_faith = faith:fandaanano
 		every_neighboring_county = {

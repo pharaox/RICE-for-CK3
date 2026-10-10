@@ -3232,7 +3232,7 @@ harran.0069 = {
 	option = {
 		name = harran.0069.b
 		add_piety = 200
-		set_character_faith_with_conversion = faith:harranian_pagan
+		set_character_faith = faith:harranian_pagan
 		custom_tooltip = harran.0069.b.tooltip
 	}
 }

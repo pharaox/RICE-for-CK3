@@ -3092,7 +3092,7 @@ normandy.0025 = {
 			NOT = { scope:current_ruler.faith = scope:courtier_1.faith }
 			NOT = { scope:current_ruler.rite = { rite_has_parameter = unreformed } }
 		}
-		set_character_faith_with_conversion = scope:current_ruler.faith
+		set_character_faith = scope:current_ruler.faith
 		add_piety = -200
 		add_prestige = 100
 		scope:granter = {
@@ -5082,7 +5082,7 @@ normandy.0035 = {
 			NOT = { scope:current_ruler.faith = scope:courtier_1.faith }
 			NOT = { scope:current_ruler.rite = { rite_has_parameter = unreformed } }
 		}
-		set_character_faith_with_conversion = scope:current_ruler.faith
+		set_character_faith = scope:current_ruler.faith
 		add_piety = -200
 		add_prestige = 100
 		scope:granter = {
@@ -6017,7 +6017,7 @@ normandy.0040 = {
 					}
 				}
 				add_character_flag = RICE_normandy_rollo_did_convert_flag
-				set_character_faith_with_conversion = scope:charles.faith
+				set_character_faith = scope:charles.faith
 			}	
 		}
 
@@ -6845,7 +6845,7 @@ normandy.0041 = {
 							has_character_flag = RICE_normandy_rollo_did_convert_flag
 						}
 					}
-					set_character_faith_with_conversion = scope:charles.faith
+					set_character_faith = scope:charles.faith
 				}
 				dynasty = {
 					add_dynasty_modifier = {

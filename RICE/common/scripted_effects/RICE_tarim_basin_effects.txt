@@ -1521,7 +1521,7 @@ RICE_make_chinese_buddhist_effect = {
 			culture = { has_cultural_pillar = heritage_chinese }
 			NOT = { religion = religion:buddhism_religion } # Not already Buddhist
 		}
-		set_character_faith_with_conversion = faith:mahayana_faith
+		set_character_faith = faith:mahayana_faith
 	}
 	if = {
 		limit = {
@@ -1570,7 +1570,7 @@ RICE_make_chinese_buddhist_effect = {
 				culture = { has_cultural_pillar = heritage_chinese }
 				NOT = { religion = religion:buddhism_religion } # Not already Buddhist
 			}
-			set_character_faith_with_conversion = faith:mahayana_faith
+			set_character_faith = faith:mahayana_faith
 			hidden_effect = {
 				if = {
 					limit = {

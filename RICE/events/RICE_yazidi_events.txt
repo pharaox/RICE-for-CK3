@@ -413,7 +413,7 @@ yazidi.0003 = {
 				}		
 			}
 		}
-		set_character_rite_with_conversion = rite:yazidi
+		set_character_rite = rite:yazidi
 		ai_chance = {
 			base = 50
 			modifier = {
@@ -772,7 +772,7 @@ yazidi.0006 = {
 				}		
 			}
 		}
-		set_character_rite_with_conversion = rite:meshefaresism
+		set_character_rite = rite:meshefaresism
 		ai_chance = {
 			base = 40
 			modifier = {

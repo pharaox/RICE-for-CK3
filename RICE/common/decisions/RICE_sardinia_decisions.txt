@@ -369,7 +369,7 @@ RICE_sardinia_decide_sardinia_orientation = {
 				}
 				show_as_tooltip = { set_character_faith = faith:catholic }
 				hidden_effect = {
-					set_character_faith_with_conversion = faith:catholic
+					set_character_faith = faith:catholic
 				}
 			}
 
@@ -438,7 +438,7 @@ RICE_sardinia_decide_sardinia_orientation = {
 				}
 				show_as_tooltip = { set_character_faith = faith:orthodox }
 				hidden_effect = {
-					set_character_faith_with_conversion = faith:orthodox
+					set_character_faith = faith:orthodox
 				}
 			}
 
