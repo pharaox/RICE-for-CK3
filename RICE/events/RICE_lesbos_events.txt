@@ -438,8 +438,7 @@ lesbos.0025 = {
 		any_liege_or_above = {
 			NOT = { religion = scope:host.religion }
 		}
-		cp:councillor_court_chaplain = {
-			exists = yes
+		cp:councillor_court_chaplain ?= {
 			is_available_adult = yes
 		}
 	}

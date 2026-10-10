@@ -568,7 +568,6 @@ RICE_niger_delta_request_beaded_crown = {
 				}
 				title:d_ooni_of_ife.holder = {
 					any_close_family_member = {
-						exists = yes
 						is_landed = no
 						NOT = { is_primary_heir_of = title:d_ooni_of_ife.holder }
 					}					

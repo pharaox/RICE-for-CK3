@@ -382,8 +382,7 @@ galicia.0012 = {
 			triggered_desc = {
 				trigger = {
 					religion = religion:christianity_religion
-					cp:councillor_court_chaplain = {
-						exists = yes
+					cp:councillor_court_chaplain ?= {
 						is_available_adult = yes
 					}
 				}
@@ -1063,8 +1062,7 @@ galicia.0022 = {
 		title:c_santiago = {
 			faith.religion = religion:christianity_religion
 		}
-		cp:councillor_court_chaplain = {
-			exists = yes
+		cp:councillor_court_chaplain ?= {
 			is_available_adult = yes
 		}
 	}
@@ -1128,8 +1126,7 @@ galicia.0023 = {
 	}
 
 	trigger = {
-		cp:councillor_court_chaplain = {
-			exists = yes
+		cp:councillor_court_chaplain ?= {
 			is_available_adult = yes
 		}
 		religion = religion:christianity_religion

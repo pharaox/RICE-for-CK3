@@ -776,8 +776,7 @@ manichean.0013 = {
 	immediate = {
 		if = {
 			limit = {			
-				cp:councillor_court_chaplain = {
-					exists = yes
+				cp:councillor_court_chaplain ?= {
 					is_available_adult = yes
 				}
 			}
@@ -1107,8 +1106,7 @@ manichean.0016 = {
 	immediate = {
 		if = {
 			limit = {			
-				cp:councillor_court_chaplain = {
-					exists = yes
+				cp:councillor_court_chaplain ?= {
 					is_available_adult = yes
 				}
 			}
@@ -3984,8 +3982,7 @@ manichean.0078 = {
 		
 	trigger = {
 		rite = { rite_has_doctrine = rice_light_purification_doctrine }
-		cp:councillor_court_chaplain = {
-			exists = yes
+		cp:councillor_court_chaplain ?= {
 			is_available_ai_adult = yes
 			faith = root.faith
 		}

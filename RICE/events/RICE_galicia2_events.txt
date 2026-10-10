@@ -2585,8 +2585,7 @@ galicia2.0080 = {
 		
 	trigger = {
 		culture_has_slavic_heritage_pillar_trigger = yes
-		cp:councillor_court_chaplain = {
-			exists = yes
+		cp:councillor_court_chaplain ?= {
 			is_available_adult = yes
 			faith = root.faith
 		}

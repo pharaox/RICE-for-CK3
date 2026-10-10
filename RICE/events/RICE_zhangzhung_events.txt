@@ -4961,8 +4961,7 @@ zhangzhung.0150 = {
 		
 	trigger = {
 		RICE_tibetan_buddhist_or_reformed_bon_trigger = yes
-		cp:councillor_court_chaplain = {
-			exists = yes
+		cp:councillor_court_chaplain ?= {
 			is_available_adult = yes
 			RICE_tibetan_buddhist_or_reformed_bon_trigger = yes
 		}

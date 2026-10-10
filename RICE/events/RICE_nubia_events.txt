@@ -14876,8 +14876,7 @@ nubia.0269 = {
 				}
 			}
 		}
-		cp:councillor_court_chaplain = {
-			exists = yes
+		cp:councillor_court_chaplain ?= {
 			is_available_ai_adult = yes
 			faith = root.faith
 			OR = {
@@ -15001,8 +15000,7 @@ nubia.0270 = {
 				}
 			}
 		}
-		cp:councillor_court_chaplain = {
-			exists = yes
+		cp:councillor_court_chaplain ?= {
 			is_available_ai_adult = yes
 			faith = root.faith
 			OR = {
@@ -15359,8 +15357,7 @@ nubia.0273 = {
 				}
 			}
 		}
-		cp:councillor_court_chaplain = {
-			exists = yes
+		cp:councillor_court_chaplain ?= {
 			is_available_ai_adult = yes
 			faith = root.faith
 			OR = {
@@ -17282,8 +17279,7 @@ nubia.0284 = {
 				}
 			}
 		}
-		cp:councillor_court_chaplain = {
-			exists = yes
+		cp:councillor_court_chaplain ?= {
 			is_available_ai_adult = yes
 			faith = root.faith
 			culture = root.culture
