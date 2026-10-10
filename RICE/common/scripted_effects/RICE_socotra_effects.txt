@@ -1068,7 +1068,7 @@ RICE_socotra_sorcerer_small_xp_gain = {
 			value = RICE_socotra_sorcerer_small_xp_gain
 		}
 	}
-	else_if = {
+	else = {
 		random = {
 			chance = 25
 			add_trait = RICE_socotra_sorcerer
@@ -1086,7 +1086,7 @@ RICE_socotra_sorcerer_medium_xp_gain = {
 			value = RICE_socotra_sorcerer_medium_xp_gain
 		}
 	}
-	else_if = {
+	else = {
 		random = {
 			chance = 50
 			add_trait = RICE_socotra_sorcerer
@@ -1104,7 +1104,7 @@ RICE_socotra_sorcerer_large_xp_gain = {
 			value = RICE_socotra_sorcerer_large_xp_gain
 		}
 	}
-	else_if = {
+	else = {
 		random = {
 			chance = 75
 			add_trait = RICE_socotra_sorcerer

@@ -17391,7 +17391,7 @@ north_atlantic.0166 = {
 			}
 			make_unprunable = yes
 		}
-		else_if = {
+		else = {
 			if = {
 				limit = {
 					scope:leader = {

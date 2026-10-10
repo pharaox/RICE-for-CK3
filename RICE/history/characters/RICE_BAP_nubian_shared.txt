@@ -1496,7 +1496,7 @@ nobadia0021 = {
 	father = nobadia0018
 	mother = nobadia0018b
 	1174.1.1 = {
-		birth = "1174..1.1"
+		birth = "1174.1.1"
 	}
 	1245.1.1 = {
 		death = "1245.1.1"

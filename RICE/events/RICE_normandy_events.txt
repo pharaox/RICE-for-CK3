@@ -10577,6 +10577,7 @@ normandy.0111 = {
 		struggle:RICE_normandy_struggle ?= {
 			activate_struggle_catalyst = {
 				catalyst = catalyst_RICE_normandy_historia_normannorum
+				character = scope:norman_duke
 			}
 		}
 
@@ -10740,6 +10741,7 @@ normandy.0112 = {
 			struggle:RICE_normandy_struggle ?= {
 				activate_struggle_catalyst = {
 					catalyst = catalyst_RICE_normandy_historia_normannorum
+					character = scope:norman_duke
 				}
 			}
 		}

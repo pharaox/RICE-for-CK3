@@ -1849,7 +1849,7 @@ hangzhou.0073 = {
 						culture = { has_cultural_pillar = heritage_chinese } # Is a Chinese culture
 					}
 				}
-				scope:CSM_xp = {
+				scope:RICE_lu_you_final_poem = {
 					set_artifact_description = RICE_lu_you_final_poem_desc_kaifeng_reclaimed			
 				}
 			}
