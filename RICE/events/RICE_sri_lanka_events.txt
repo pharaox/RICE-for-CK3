@@ -586,12 +586,12 @@ sri_lanka.0006 = {
 
 	after = {
 		custom_tooltip = sri_lanka.0006.enshrine_decision_tooltip
-		hidden_effect = {
-			RICE_sri_lanka_struggle_ending_uniter_effect = yes	
-		}
 		every_ruler = {
 			limit = {
-				is_ai = no
+				OR = {
+					this = scope:sri_lanka_struggle_ender
+					is_ai = no
+				}
 				OR = {
 					any_held_title = {
 						tier = tier_county
