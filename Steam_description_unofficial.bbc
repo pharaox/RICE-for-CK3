@@ -1,0 +1,69 @@
+[h1]RICE Unofficial Update to 1.20[/h1]
+
+[b]This is an unofficial update of RICE, made with the author's permission. It is not made or supported by @cybrxkhan.[/b] It will be retired as soon as RICE gets an official update for CK3 1.20.
+
+[h2]What is RICE?[/h2]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2273832430]Regional Immersion and Cultural Enrichment (RICE)[/url] by cybrxkhan is a collection of "flavor packs" that add immersion to different regions, cultures, and religions in CK3, with a focus on lesser-known places, peoples, and histories. Please visit the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2273832430]original mod page[/url] for its full description, credits, and links, and rate and favorite the original mod if you enjoy it.
+
+[h2]What does this update do?[/h2]
+
+CK3 1.20 changed how religions work: many former faiths became rites of a broader faith, and doctrines and tenets now belong to rites. This update takes the 1.20 beta version of RICE and finishes its adaptation:
+
+[list]
+[*] Religions, faiths, and rites restructured for 1.20, and all faith references in decisions, events, history, and bookmarks updated to the new faiths and rites.
+[*] Fixed a crash on loading the game, caused by decisions with two widgets, which is no longer supported in 1.20.
+[*] Fixed load errors caused by other 1.20 changes, e.g. activities, fullscreen events, struggles, localization, and doctrine costs.
+[*] Restored the Greenland and Sri Lanka struggle legend seeds, which were disabled in the beta.
+[*] Fixed faith conversions at game start and in events and decisions, which failed under the new 1.20 conversion rules.
+[*] Fixed RICE's landless adventurers not being playable, a known issue of the beta.
+[*] Fixed a number of bugs found while testing, e.g. effects applied twice, scope errors, and broken localization references.
+[/list]
+
+The full list of changes is in the [url=https://github.com/cybrxkhan/RICE-for-CK3/pull/345]pull request on GitHub[/url].
+
+[h2]Open questions[/h2]
+
+Some changes needed decisions only the author can make. Until then, this update keeps things close to vanilla 1.20 and to RICE's history:
+
+[list]
+[*] [b]Yazidi, Yarsani, and Kurdish pagan[/b] are now rites of the Yazidi faith. They share one head of faith, and the Yarsani and Kurdish pagan rites keep vanilla's tenets and head of faith doctrine.
+[*] [b]Manichean revival[/b] no longer offers a tenet swap, as monasticism is no longer a tenet in 1.20.
+[*] [b]Placeholder faiths[/b] stay disabled, as in the beta.
+[*] [b]Bookmarks:[/b] Nasir Khusraw (1066) and Zunbil Firuz (867) follow their history (Sunni) instead of the bookmark text.
+[*] [b]Unfinished beta content[/b] (e.g. the Sammitiya Buddhists in Sindh) is skipped until the missing characters are added.
+[/list]
+
+[h2]Is it playable?[/h2]
+
+Yes. The update was tested by:
+
+[list]
+[*] Static analysis with [url=https://github.com/amtep/tiger]ck3-tiger[/url], compared with RICE 1.19.
+[*] Starting all three bookmarks (867, 1066, 1178) and checking the error log.
+[*] Running the game in observer mode for 30+ years from 867 and 1066, compared with a vanilla run.
+[*] Manual testing of the areas affected by the update.
+[/list]
+
+That said, RICE is a large mod and not everything could be tested. [b]Most issues that already existed in RICE 1.19 are not addressed by this update.[/b] Translations for content new in the beta are still missing in languages other than English.
+
+The beta also contained the unfinished [b]"Jats and Sammitiya"[/b] flavor pack, with new Buddhist schools such as Sarvastivada, Pudgalavada, Dharmaguptaka, and Mahasanghika. It is included as is and is still unfinished, so issues there are to be expected, e.g. some of these faiths don't appear on the map as designed.
+
+[h2]Save compatibility[/h2]
+
+[list]
+[*] [b]Not compatible with existing saves.[/b] Start a new game.
+[*] Saves made with this update [b]may not be compatible[/b] with future official RICE versions.
+[/list]
+
+[h2]Usage[/h2]
+
+[list]
+[*] Use this mod [b]instead of[/b] the original RICE, never both. Disable the original RICE in your playset.
+[*] Load it in the same place as the original RICE.
+[*] Only RICE itself is updated. RICE compatibility patches (e.g. RICE + EPE) are not part of this update.
+[/list]
+
+[h2]Reporting issues[/h2]
+
+Please report issues in the comments, but [b]only if they appear to be related to this update[/b], e.g. religions, faiths, rites, doctrines, or anything that worked in RICE 1.19 and no longer does. Include the game date, your character, and any related lines from [i]error.log[/i] if possible. Issues that also existed in RICE 1.19 should go to the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2273832430]original mod[/url].
