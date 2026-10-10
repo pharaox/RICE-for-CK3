@@ -214,9 +214,9 @@ RICE_crabs_start_up_effect = {
 
 
 			character:baloch0001 ?= {
-				set_character_faith_with_conversion = faith:pudgalavada_faith
+				set_character_faith = faith:pudgalavada_faith
 				every_vassal = {
-					set_character_faith_with_conversion = faith:pudgalavada_faith
+					set_character_faith = faith:pudgalavada_faith
 				}
 				every_courtier_or_guest = {
 					set_character_faith = faith:pudgalavada_faith

@@ -344,7 +344,7 @@ RICE_setup_sri_lanka_flavor_pack_effect = {
 			set_county_faith = faith:burmic
 		}
 		title:c_takon.holder = {
-			set_character_faith_with_conversion = faith:burmic
+			set_character_faith = faith:burmic
 			every_courtier = {
 				limit = {
 					OR = {
@@ -362,7 +362,7 @@ RICE_setup_sri_lanka_flavor_pack_effect = {
 			set_county_faith = faith:burmic
 		}
 		title:c_hanlan.holder = {
-			set_character_faith_with_conversion = faith:burmic
+			set_character_faith = faith:burmic
 			every_courtier = {
 				limit = {
 					OR = {
@@ -380,7 +380,7 @@ RICE_setup_sri_lanka_flavor_pack_effect = {
 			set_county_faith = faith:burmic
 		}
 		title:c_kale.holder = {
-			set_character_faith_with_conversion = faith:burmic
+			set_character_faith = faith:burmic
 			every_courtier = {
 				limit = {
 					OR = {
@@ -404,7 +404,7 @@ RICE_setup_sri_lanka_flavor_pack_effect = {
 					limit = {
 						culture = culture:kachin
 					}
-					set_character_faith_with_conversion = faith:burmic
+					set_character_faith = faith:burmic
 				}
 				every_courtier = {
 					limit = {

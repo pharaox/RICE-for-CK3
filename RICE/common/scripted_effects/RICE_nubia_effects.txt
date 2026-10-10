@@ -2030,12 +2030,12 @@
 						faith = faith:nuba_pagan
 					}
 				}
-				set_character_faith_with_conversion = faith:nuba_pagan
+				set_character_faith = faith:nuba_pagan
 				every_courtier_or_guest = {
 					set_character_faith = faith:nuba_pagan
 				}
 				every_vassal_or_below = {
-					set_character_faith_with_conversion = faith:nuba_pagan
+					set_character_faith = faith:nuba_pagan
 					every_courtier_or_guest = {
 						set_character_faith = faith:nuba_pagan
 					}
@@ -2107,12 +2107,12 @@
 					}
 					highest_held_title_tier = tier_county
 				}
-				set_character_faith_with_conversion = faith:dinka_pagan
+				set_character_faith = faith:dinka_pagan
 				every_courtier_or_guest = {
 					set_character_faith = faith:dinka_pagan
 				}
 				every_vassal_or_below = {
-					set_character_faith_with_conversion = faith:dinka_pagan
+					set_character_faith = faith:dinka_pagan
 					every_courtier_or_guest = {
 						set_character_faith = faith:dinka_pagan
 					}
@@ -2300,12 +2300,12 @@
 					}
 					#highest_held_title_tier = tier_county
 				}
-				set_character_faith_with_conversion = faith:fur_pagan
+				set_character_faith = faith:fur_pagan
 				every_courtier_or_guest = {
 					set_character_faith = faith:fur_pagan
 				}
 				every_vassal_or_below = {
-					set_character_faith_with_conversion = faith:fur_pagan
+					set_character_faith = faith:fur_pagan
 					every_courtier_or_guest = {
 						set_character_faith = faith:fur_pagan
 					}
@@ -2493,7 +2493,7 @@
 				limit = {
 					faith.religion = { is_in_family = rf_pagan }
 				}
-				set_character_faith_with_conversion = faith:idoism_pagan
+				set_character_faith = faith:idoism_pagan
 				every_courtier_or_guest = {
 					limit = {
 						OR = {
@@ -2514,7 +2514,7 @@
 						}
 						faith.religion = { is_in_family = rf_pagan }
 					}
-					set_character_faith_with_conversion = faith:idoism_pagan
+					set_character_faith = faith:idoism_pagan
 					every_courtier_or_guest = {
 						set_character_faith = faith:idoism_pagan
 					}
@@ -2558,7 +2558,7 @@
 				limit = {
 					faith.religion = { is_in_family = rf_pagan }
 				}
-				set_character_faith_with_conversion = faith:munean_pagan
+				set_character_faith = faith:munean_pagan
 				every_courtier_or_guest = {
 					limit = {
 						OR = {
@@ -2577,7 +2577,7 @@
 						}
 						faith.religion = { is_in_family = rf_pagan }
 					}
-					set_character_faith_with_conversion = faith:munean_pagan
+					set_character_faith = faith:munean_pagan
 					every_courtier_or_guest = {
 						set_character_faith = faith:munean_pagan
 					}
@@ -2628,7 +2628,7 @@
 				limit = {
 					faith.religion = { is_in_family = rf_pagan }
 				}
-				set_character_faith_with_conversion = faith:beja_pagan
+				set_character_faith = faith:beja_pagan
 				every_courtier_or_guest = {
 					limit = {
 						culture = culture:beja
@@ -2641,7 +2641,7 @@
 						culture = culture:beja
 						faith.religion = { is_in_family = rf_pagan }
 					}
-					set_character_faith_with_conversion = faith:beja_pagan
+					set_character_faith = faith:beja_pagan
 					every_courtier_or_guest = {
 						set_character_faith = faith:beja_pagan
 					}

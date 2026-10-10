@@ -121,12 +121,12 @@
 		limit = {
 			culture = culture:senoi
 		}
-		set_character_faith_with_conversion = faith:senoi_pagan
+		set_character_faith = faith:senoi_pagan
 		every_vassal = {
 			limit = {
 				culture = culture:senoi
 			}
-			set_character_faith_with_conversion = faith:senoi_pagan
+			set_character_faith = faith:senoi_pagan
 		}
 		every_courtier_or_guest = {
 			limit = {

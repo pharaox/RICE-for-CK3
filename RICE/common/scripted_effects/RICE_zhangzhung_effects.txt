@@ -43,7 +43,7 @@
 	}
 
 	title:c_kamru.holder = {
-		set_character_faith_with_conversion = faith:kinnaur_pagan
+		set_character_faith = faith:kinnaur_pagan
 		every_courtier = {
 			limit = {
 				is_lowborn = yes

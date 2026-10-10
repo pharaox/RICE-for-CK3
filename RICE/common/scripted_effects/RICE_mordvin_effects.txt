@@ -269,12 +269,12 @@ RICE_setup_mordvin_flavor_pack_effect = {
 					}
 				}
 			}
-			set_character_faith_with_conversion = faith:erzya_pagan
+			set_character_faith = faith:erzya_pagan
 			every_vassal = {
 				limit = {
 					culture = { has_cultural_pillar = heritage_volga_finnic }
 				}
-				set_character_faith_with_conversion = faith:erzya_pagan
+				set_character_faith = faith:erzya_pagan
 			}
 			every_courtier_or_guest = {
 				limit = {
@@ -299,12 +299,12 @@ RICE_setup_mordvin_flavor_pack_effect = {
 					}
 				}
 			}
-			set_character_faith_with_conversion = faith:moksha_pagan
+			set_character_faith = faith:moksha_pagan
 			every_vassal = {
 				limit = {
 					culture = { has_cultural_pillar = heritage_volga_finnic }
 				}
-				set_character_faith_with_conversion = faith:moksha_pagan
+				set_character_faith = faith:moksha_pagan
 			}
 			every_courtier_or_guest = {
 				limit = {
@@ -321,12 +321,12 @@ RICE_setup_mordvin_flavor_pack_effect = {
 					culture = culture:merya
 				}
 			}
-			set_character_faith_with_conversion = faith:mari_pagan
+			set_character_faith = faith:mari_pagan
 			every_vassal = {
 				limit = {
 					culture = { has_cultural_pillar = heritage_volga_finnic }
 				}
-				set_character_faith_with_conversion = faith:mari_pagan
+				set_character_faith = faith:mari_pagan
 			}
 			every_courtier_or_guest = {
 				limit = {
@@ -340,12 +340,12 @@ RICE_setup_mordvin_flavor_pack_effect = {
 			limit = {
 				culture = culture:sami
 			}
-			set_character_faith_with_conversion = faith:sami_pagan
+			set_character_faith = faith:sami_pagan
 			every_vassal = {
 				limit = {
 					culture = { has_cultural_pillar = heritage_balto_finnic }
 				}
-				set_character_faith_with_conversion = faith:sami_pagan
+				set_character_faith = faith:sami_pagan
 			}
 			every_courtier_or_guest = {
 				limit = {
@@ -359,12 +359,12 @@ RICE_setup_mordvin_flavor_pack_effect = {
 			limit = {
 				culture = culture:komi
 			}
-			set_character_faith_with_conversion = faith:komi_pagan
+			set_character_faith = faith:komi_pagan
 			every_vassal = {
 				limit = {
 					culture = { has_cultural_pillar = heritage_ugro_permian }
 				}
-				set_character_faith_with_conversion = faith:komi_pagan
+				set_character_faith = faith:komi_pagan
 			}
 			every_courtier_or_guest = {
 				limit = {
@@ -378,12 +378,12 @@ RICE_setup_mordvin_flavor_pack_effect = {
 			limit = {
 				culture = culture:udmurt
 			}
-			set_character_faith_with_conversion = faith:udmurt_pagan
+			set_character_faith = faith:udmurt_pagan
 			every_vassal = {
 				limit = {
 					culture = { has_cultural_pillar = heritage_ugro_permian }
 				}
-				set_character_faith_with_conversion = faith:udmurt_pagan
+				set_character_faith = faith:udmurt_pagan
 			}
 			every_courtier_or_guest = {
 				limit = {

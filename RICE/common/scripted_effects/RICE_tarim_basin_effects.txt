@@ -212,25 +212,25 @@
 			set_county_faith = faith:mahayana_faith # faith:theravada_faith
 		}
 		character:166706 = {
-			set_character_faith_with_conversion = faith:mahayana_faith # faith:theravada_faith
+			set_character_faith = faith:mahayana_faith # faith:theravada_faith
 			every_courtier = {
 				set_character_faith = faith:mahayana_faith # faith:theravada_faith
 			}
 		}
 		character:166755 = {
-			set_character_faith_with_conversion = faith:mahayana_faith # faith:theravada_faith
+			set_character_faith = faith:mahayana_faith # faith:theravada_faith
 			every_courtier = {
 				set_character_faith = faith:mahayana_faith # faith:theravada_faith
 			}
 		}
 		character:166746 = {
-			set_character_faith_with_conversion = faith:mahayana_faith # faith:theravada_faith
+			set_character_faith = faith:mahayana_faith # faith:theravada_faith
 			every_courtier = {
 				set_character_faith = faith:mahayana_faith # faith:theravada_faith
 			}
 		}
 		character:166740 = {
-			set_character_faith_with_conversion = faith:mahayana_faith # faith:theravada_faith
+			set_character_faith = faith:mahayana_faith # faith:theravada_faith
 			every_courtier = {
 				set_character_faith = faith:mahayana_faith # faith:theravada_faith
 			}

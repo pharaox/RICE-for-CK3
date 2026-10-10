@@ -289,7 +289,7 @@ RICE_setup_yazidi_flavor_pack_effect = {
 			}
 		}
 		character:kurdish0001 = {
-			set_character_rite_with_conversion = rite:kitebacilweism
+			set_character_rite = rite:kitebacilweism
 			every_vassal = {
 				limit = {
 					culture = culture:kurdish
