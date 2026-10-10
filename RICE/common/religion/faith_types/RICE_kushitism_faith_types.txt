@@ -93,7 +93,7 @@ beja_pagan = {
 
 		#Creator
 		CreatorName = beja_high_god_name
-		CreatorNamePossessive = beja_high_god_name_possessivee
+		CreatorNamePossessive = beja_high_god_name_possessive
 		CreatorSheHe = CHARACTER_SHEHE_HE
 		CreatorHerHis = CHARACTER_HERHIS_HIS
 		CreatorHerHim = CHARACTER_HERHIM_HIM
