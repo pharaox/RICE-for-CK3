@@ -246,7 +246,7 @@
 		DevilNamePossessive = semitic_devil_name_possessive
 		DevilSheHe = CHARACTER_SHEHE_THEY
 		DevilHerHis = CHARACTER_HERHIS_THEIR
-		DevilHerselfHimself = CHARACTER_THEM
+		DevilHerselfHimself = CHARACTER_THEMSELVES
 		EvilGodNames = { semitic_evil_god_demons }
 		HouseOfWorship = paganism_house_of_worship
 		HouseOfWorship2 = paganism_house_of_worship

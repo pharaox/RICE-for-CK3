@@ -75,7 +75,7 @@ tuareg_pagan = {
 		
 		#TricksterGod
 		TricksterGodName = tuareg_trickster_god_name
-		TricksterGodNamePossessive = tuareg_trickster_god_name_name_possessive
+		TricksterGodNamePossessive = tuareg_trickster_god_name_possessive
 		TricksterGodSheHe = CHARACTER_SHEHE_THEY
 		TricksterGodHerHis = CHARACTER_HERHIS_THEIR
 		TricksterGodHerHim = CHARACTER_HERHIM_THEM

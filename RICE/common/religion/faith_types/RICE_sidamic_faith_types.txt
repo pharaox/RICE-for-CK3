@@ -50,7 +50,7 @@ damot_pagan = {
 		HighGodNamePossessive = damot_high_god_name_possessive
 		HighGodNameSheHe = CHARACTER_SHEHE_HE
 		HighGodHerselfHimself = CHARACTER_HIMSELF
-		HighGodHerHis = CHARACTER_HERHIM_HIS
+		HighGodHerHis = CHARACTER_HERHIS_HIS
 		HighGodNameAlternate = damot_high_god_name
 		HighGodNameAlternatePossessive = damot_high_god_name_possessive
 

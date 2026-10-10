@@ -55,7 +55,7 @@ munean_pagan = {
 		GoodGodNames = { 
 			idoism_high_god_name 
 			idoism_high_god_name_alternate 
-			idoism_health_god idoism_fertility_god munean_high_god_name
+			idoism_health_god_name idoism_fertility_god_name munean_high_god_name
 		}
 	}
 

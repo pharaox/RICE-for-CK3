@@ -243,7 +243,7 @@
 		GoodGodNames = { mijikenda_pagan_high_god_name paganism_good_god_ancestors }
 		DevilName = east_bantu_religion_devil_name
 		DevilNamePossessive = east_bantu_religion_devil_name_possessive
-		DevilSheHe = CHARACTER_SHEHE_THEM
+		DevilSheHe = CHARACTER_SHEHE_THEY
 		DevilHerHis = CHARACTER_HERHIS_THEIR
 		DevilHerselfHimself = CHARACTER_THEMSELVES
 		EvilGodNames = { east_bantu_religion_devil_name }

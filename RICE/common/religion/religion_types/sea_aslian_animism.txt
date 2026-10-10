@@ -238,7 +238,7 @@ aslian_religion = { # Orang Asli faiths, reworked from ROA's older version
 		PantheonTerm3 = religion_the_gods
 		PantheonTermHasHave = pantheon_term_have
 		GoodGodNames = {
-			senoi_pagan_good_god_name
+			senoi_pagan_good_god
 			senoi_pagan_good_god_name_alternate
 			senoi_pagan_good_god_keloog_pias
 			senoi_pagan_good_god_keloog_kabul
@@ -293,8 +293,8 @@ aslian_religion = { # Orang Asli faiths, reworked from ROA's older version
 		NegativeAfterLife = senoi_pagan_negative_afterlife
 		NegativeAfterLife2 = senoi_pagan_negative_afterlife
 		NegativeAfterLife3 = senoi_pagan_negative_afterlife
-		DeathDeityName = senoi_pagan_death_name
-		DeathDeityNamePossessive = senoi_pagan_death_name_possessive
+		DeathDeityName = senoi_pagan_death_deity_name
+		DeathDeityNamePossessive = senoi_pagan_death_deity_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_THEY
 		DeathDeityHerHis = CHARACTER_HERHIS_THEIR
 		DeathDeityHerHim = CHARACTER_HERHIM_THEM

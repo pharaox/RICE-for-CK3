@@ -203,7 +203,7 @@
 		KnowledgeGodNamePossessive = amazigh_knowledge_god_name_possessive
 		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
 		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
-		KnowledgeGodHerHim = CHARACTER_HERHIM_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
 
 		#WarGod
 		WarGodName = amazigh_war_god_name

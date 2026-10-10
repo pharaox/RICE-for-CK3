@@ -297,7 +297,7 @@
 		WitchGodName = waaqism_night_god_name
 		WitchGodNamePossessive = waaqism_night_god_name_possessive
 		WitchGodHerHis = CHARACTER_HERHIS_THEIR
-		WitchGodSheHe = CHARACTER_SHEHE_THEIR
+		WitchGodSheHe = CHARACTER_SHEHE_THEY
 		WitchGodHerHim = CHARACTER_HERHIM_THEM
 		WitchGodMistressMaster = master
 		WitchGodMotherFather = father

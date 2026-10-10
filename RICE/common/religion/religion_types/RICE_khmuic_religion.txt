@@ -275,7 +275,7 @@
 		PriestFemalePlural = khmu_pagan_priest_plural
 		PriestNeuter = khmu_pagan_priest
 		PriestNeuterPlural = khmu_pagan_priest_plural
-		AltPriestTermPlural = khmu_pagan_priest_term_plural
+		AltPriestTermPlural = khmu_pagan_priest_plural
 		BishopMale = khmu_pagan_priest
 		BishopMalePlural = khmu_pagan_priest_plural
 		BishopFemale = khmu_pagan_priest

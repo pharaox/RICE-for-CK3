@@ -337,7 +337,7 @@ arabic_pagan = {
 		HealthGodNamePossessive = arabic_pagan_health_god_name_possessive
 		HealthGodSheHe = CHARACTER_SHEHE_SHE
 		HealthGodHerHis = CHARACTER_HERHIS_HER
-		HealthGodHerHim = CHARACTER_HERHIM_HIS
+		HealthGodHerHim = CHARACTER_HERHIM_HIM
 		
 		#FertilityGod
 		FertilityGodName = arabic_pagan_fertility_god_name
@@ -456,7 +456,7 @@ aksumite_pagan = {
 		HealthGodNamePossessive = aksumite_pagan_health_god_name_possessive
 		HealthGodSheHe = CHARACTER_SHEHE_SHE
 		HealthGodHerHis = CHARACTER_HERHIS_HER
-		HealthGodHerHim = CHARACTER_HERHIM_HIS
+		HealthGodHerHim = CHARACTER_HERHIM_HIM
 		
 		#FertilityGod
 		FertilityGodName = aksumite_pagan_fertility_god_name
@@ -599,21 +599,21 @@ shamsi_pagan = {
 		CreatorNamePossessive = shamsi_pagan_high_god_name_possessive
 		CreatorSheHe = CHARACTER_SHEHE_HE
 		CreatorHerHis = CHARACTER_HERHIS_HER
-		CreatorHerHim = CHARACTER_HERHIS_HIM
+		CreatorHerHim = CHARACTER_HERHIM_HIM
 		
 		#HealthGod
 		HealthGodName = shamsi_pagan_high_god_name
 		HealthGodNamePossessive = shamsi_pagan_high_god_name_possessive
 		HealthGodSheHe = CHARACTER_SHEHE_HE
 		HealthGodHerHis = CHARACTER_HERHIS_HER
-		HealthGodHerHim = CHARACTER_HERHIS_HIM
+		HealthGodHerHim = CHARACTER_HERHIM_HIM
 		
 		#FertilityGod
 		FertilityGodName = shamsi_pagan_high_god_name
 		FertilityGodNamePossessive = shamsi_pagan_high_god_name_possessive
 		FertilityGodSheHe = CHARACTER_SHEHE_HE
 		FertilityGodHerHis = CHARACTER_HERHIS_HER
-		FertilityGodHerHim = CHARACTER_HERHIS_HIM
+		FertilityGodHerHim = CHARACTER_HERHIM_HIM
 
 		#WealthGod
 		WealthGodName = shamsi_pagan_high_god_name
@@ -627,7 +627,7 @@ shamsi_pagan = {
 		HouseholdGodNamePossessive = shamsi_pagan_high_god_name_possessive
 		HouseholdGodSheHe = CHARACTER_SHEHE_HE
 		HouseholdGodHerHis = CHARACTER_HERHIS_HER
-		HouseholdGodHerHim = CHARACTER_HERHIS_HIM
+		HouseholdGodHerHim = CHARACTER_HERHIM_HIM
 
 		#FateGod
 		FateGodName = shamsi_pagan_high_god_name
@@ -655,7 +655,7 @@ shamsi_pagan = {
 		TricksterGodNamePossessive = shamsi_pagan_high_god_name_possessive
 		TricksterGodSheHe = CHARACTER_SHEHE_HE
 		TricksterGodHerHis = CHARACTER_HERHIS_HER
-		TricksterGodHerHim = CHARACTER_HERHIS_HIM
+		TricksterGodHerHim = CHARACTER_HERHIM_HIM
 
 		#NightGod
 		NightGodName = shamsi_pagan_high_god_name

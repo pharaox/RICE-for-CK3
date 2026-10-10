@@ -288,7 +288,7 @@
 		NegativeAfterLife = sami_bad_pagan_afterlife
 		NegativeAfterLife2 = sami_bad_pagan_afterlife
 		NegativeAfterLife3 = sami_bad_pagan_afterlife
-		DeathDeityName = sami_death_deity_name
+		DeathDeityName = sami_pagan_death_deity_name
 		DeathDeityNamePossessive = sami_death_deity_name_possessive
 		DeathDeitySheHe = paganism_devil_shehe
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS

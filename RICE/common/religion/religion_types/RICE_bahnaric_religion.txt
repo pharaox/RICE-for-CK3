@@ -281,7 +281,7 @@
 		PriestFemalePlural = bahnar_pagan_priest_plural
 		PriestNeuter = bahnar_pagan_priest
 		PriestNeuterPlural = bahnar_pagan_priest_plural
-		AltPriestTermPlural = bahnar_pagan_priest_term_plural
+		AltPriestTermPlural = bahnar_pagan_priest_plural
 		BishopMale = bahnar_pagan_priest
 		BishopMalePlural = bahnar_pagan_priest_plural
 		BishopFemale = bahnar_pagan_priest

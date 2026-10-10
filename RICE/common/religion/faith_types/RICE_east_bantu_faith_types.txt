@@ -76,7 +76,7 @@ makonde_pagan = {
 		WarGodHerHim = CHARACTER_HERHIM_HIM
 
 		#TricksterGod
-		TricksterGodName = makonde_pagan_devil_name_name
+		TricksterGodName = makonde_pagan_devil_name
 		TricksterGodNamePossessive = makonde_pagan_devil_name_possessive
 		TricksterGodSheHe = CHARACTER_SHEHE_HE
 		TricksterGodHerHis = CHARACTER_HERHIS_HIS
@@ -265,7 +265,7 @@ makua_pagan = {
 		WarGodHerHim = CHARACTER_HERHIM_HIM
 
 		#TricksterGod
-		TricksterGodName = makua_pagan_devil_name_name
+		TricksterGodName = makua_pagan_devil_name
 		TricksterGodNamePossessive = makua_pagan_devil_name_possessive
 		TricksterGodSheHe = CHARACTER_SHEHE_HE
 		TricksterGodHerHis = CHARACTER_HERHIS_HIS
