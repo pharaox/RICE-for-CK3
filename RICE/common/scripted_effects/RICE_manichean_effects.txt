@@ -1276,12 +1276,14 @@ RICE_manichean_bema_festival_completed_log_entry_effect = {
 					limit = {
 						scope:host = { any_equipped_character_artifact = { has_variable = RICE_manichean_artifact_arzhang_variable } }
 					}
-					every_attending_character = {
-						limit = { NOT = { this = scope:host } }
-						custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT	
-						add_opinion = {
-							target = scope:host
-							modifier = RICE_arzhang_opinion
+					scope:activity = {
+						every_attending_character = {
+							limit = { NOT = { this = scope:host } }
+							custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT	
+							add_opinion = {
+								target = scope:host
+								modifier = RICE_arzhang_opinion
+							}
 						}
 					}
 				}
@@ -1306,15 +1308,17 @@ RICE_manichean_bema_festival_completed_log_entry_effect = {
 					RICE_minor_lifestyle_experience_gain_effect = yes
 				}
 				# Other attendee bonuses
-				every_attending_character = {
-					limit = { NOT = { this = scope:host } }
-					custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
-					add_piety = RICE_manichean_bema_festival_base_piety_small
-					add_prestige = RICE_manichean_bema_festival_base_prestige_small
-					stress_and_fulfillment_impact = {
-						base = miniscule_stress_impact_loss
-					}
-				}	
+				scope:activity = {
+					every_attending_character = {
+						limit = { NOT = { this = scope:host } }
+						custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
+						add_piety = RICE_manichean_bema_festival_base_piety_small
+						add_prestige = RICE_manichean_bema_festival_base_prestige_small
+						stress_and_fulfillment_impact = {
+							base = miniscule_stress_impact_loss
+						}
+					}	
+				}
 			}
 		}
 	}
