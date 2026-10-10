@@ -564,7 +564,7 @@ RICE_yazd_purchase_yakhchal_ice = {
 			limit = {
 				is_landless_ruler = yes
 			}
-			domicile.domicile_location = {
+			domicile.domicile_location ?= {
 				culture = {
 					has_innovation = innovation_RICE_yakhchals
 				}
@@ -587,7 +587,7 @@ RICE_yazd_purchase_yakhchal_ice = {
 			}
 			custom_description = {
 				text = RICE_yazd_decision_yakhchal_landless_req
-				domicile.domicile_location = {
+				domicile.domicile_location ?= {
 					culture = {
 						has_innovation = innovation_RICE_yakhchals
 					}

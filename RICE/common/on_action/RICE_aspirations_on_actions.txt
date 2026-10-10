@@ -568,7 +568,7 @@ RICE_aspirations_pulse = {
 			# Reunify the Emirate of Sicily
 			if = {
 				limit = {
-					title:d_sicily.holder = {
+					title:d_sicily.holder ?= {
 						is_alive = yes
 						is_landed = yes
 						completely_controls = title:d_sicily

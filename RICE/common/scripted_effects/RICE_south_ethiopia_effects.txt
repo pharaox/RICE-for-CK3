@@ -1380,42 +1380,6 @@ RICE_south_ethiopia_fichee_chambalaalla_festival_completed_log_entry_effect = {
 						generous = minor_stress_impact_loss
 					}
 				}
-				if = {
-					limit = {
-						scope:activity = {
-							has_activity_option = {
-								category = RICE_south_ethiopia_gifaataa_gift_type
-								option = RICE_south_ethiopia_gifaataa_gift_small
-							}
-						}
-					}
-					add_prestige = RICE_south_ethiopia_gifaataa_gift_gain_small_base
-					add_piety = RICE_south_ethiopia_gifaataa_gift_gain_small_base
-				}
-				else_if = {
-					limit = {
-						scope:activity = {
-							has_activity_option = {
-								category = RICE_south_ethiopia_gifaataa_gift_type
-								option = RICE_south_ethiopia_gifaataa_gift_medium
-							}
-						}
-					}
-					add_prestige = RICE_south_ethiopia_gifaataa_gift_gain_medium_base
-					add_piety = RICE_south_ethiopia_gifaataa_gift_gain_medium_base
-				}
-				else_if = {
-					limit = {
-						scope:activity = {
-							has_activity_option = {
-								category = RICE_south_ethiopia_gifaataa_gift_type
-								option = RICE_south_ethiopia_gifaataa_gift_large
-							}
-						}
-					}
-					add_prestige = RICE_south_ethiopia_gifaataa_gift_gain_large_base
-					add_piety = RICE_south_ethiopia_gifaataa_gift_gain_large_base
-				}
 				add_character_modifier = {
 					modifier = RICE_south_ethiopia_fichee_chambalaalla_festival_modifier
 					years = 5
