@@ -1006,7 +1006,8 @@ RICE_north_african_sardinian_generic_template = {
 	age = { 18 60 }
 	gender_female_chance = 50
 	random_traits = yes
-	faith = faith:catholic
+	faith = rite:roman_rite.faith
+	rite = rite:roman_rite
 	culture = scope:sardinian_culture
 }
 
@@ -1014,7 +1015,8 @@ RICE_afro_latin_generic_template = {
 	age = { 16 50 }
 	gender_female_chance = 50
 	random_traits = yes
-	faith = faith:catholic
+	faith = rite:roman_rite.faith
+	rite = rite:roman_rite
 	culture = culture:african_roman
 }
 
@@ -1030,7 +1032,8 @@ RICE_sardinian_catholic_decision_monk_character_template = {
 	}
 	trait = devoted
 	random_traits = yes
-	faith = faith:catholic
+	faith = rite:roman_rite.faith
+	rite = rite:roman_rite
 	culture = scope:christian_county_culture
 	gender_female_chance = root_faith_clergy_gender_female_chance
 	learning = {

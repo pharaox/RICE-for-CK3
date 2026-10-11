@@ -215,7 +215,7 @@ sardinia.0004 = {
 				limit = {
 					has_global_variable = RICE_sardinia_catholic_ending
 				}
-				faith:catholic = {
+				rite:roman_rite.faith = {
 					change_fervor = {
 						value = 10
 						desc = RICE_fervor_gain_sardinia_fervor
@@ -239,7 +239,7 @@ sardinia.0004 = {
 				limit = {
 					has_global_variable = RICE_sardinia_orthodox_ending
 				}
-				faith:orthodox = {
+				rite:byzantine_rite.faith = {
 					change_fervor = {
 						value = 10
 						desc = RICE_fervor_gain_sardinia_fervor
@@ -328,13 +328,14 @@ sardinia.0004 = {
 				geographical_region = RICE_sardinia_region
 			}
 			NOT = {
-				faith = faith:catholic
+				rite = rite:roman_rite
 			}
 			NOT = {
 				faith.religious_head_title ?= title:k_papal_state
 			}
 		}
-		set_character_faith = faith:catholic
+		set_character_faith = rite:roman_rite.faith
+		set_character_rite = rite:roman_rite
 		ai_chance = {
 			base = 50
 			modifier = {
@@ -364,13 +365,14 @@ sardinia.0004 = {
 				geographical_region = RICE_sardinia_region
 			}
 			NOT = {
-				faith = faith:orthodox
+				rite = rite:byzantine_rite
 			}
 			NOT = {
 				faith.religious_head_title ?= title:k_orthodox
 			}
 		}
-		set_character_faith = faith:orthodox
+		set_character_faith = rite:byzantine_rite.faith
+		set_character_rite = rite:byzantine_rite
 		ai_chance = {
 			base = 50
 			modifier = {
@@ -945,7 +947,7 @@ sardinia.0014 = {
 		title:k_papal_state.holder ?= {
 			save_scope_as = pope
 		}
-		faith:catholic = {
+		rite:roman_rite.faith = {
 			save_scope_as = catholic
 		}
 		random = {
@@ -955,13 +957,13 @@ sardinia.0014 = {
 				limit = {
 					any_county_in_region = {
 						region = RICE_western_christendom_region
-						faith = faith:catholic
+						pam_is_western_christian_trigger = yes
 					}
 				}
 				every_county_in_region = {
 					region = RICE_western_christendom_region
 					limit = {
-						faith = faith:catholic
+						pam_is_western_christian_trigger = yes
 					}
 					add_to_list = christian_counties
 				}

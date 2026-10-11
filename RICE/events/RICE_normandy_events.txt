@@ -8487,7 +8487,7 @@ normandy.0080 = {
 					culture:anglo_saxon = {
 						save_scope_as = thrall_culture
 					}
-					faith:catholic.main_rite = {
+					rite:roman_rite = {
 						save_scope_as = thrall_faith
 					}
 				}
@@ -9207,7 +9207,7 @@ normandy.0084 = {
 						culture:anglo_saxon = {
 							save_scope_as = thrall_culture
 						}
-						faith:catholic.main_rite = {
+						rite:roman_rite = {
 							save_scope_as = thrall_faith
 						}
 					}

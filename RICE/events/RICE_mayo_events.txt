@@ -1591,7 +1591,7 @@ mayo.0053 = {
 		else = {
 			random_list = {
 				75 = {
-					faith:catholic.main_rite = {
+					rite:roman_rite = {
 						save_scope_as = county_faith
 					}
 				}

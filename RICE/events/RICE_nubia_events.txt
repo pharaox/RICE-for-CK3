@@ -12825,7 +12825,7 @@ nubia.0221 = {
 				add = 50
 				OR = {
 					RICE_is_greco_roman_religion_group_trigger = yes
-					faith = faith:miaphysitism
+					faith = rite:coptic_rite.faith
 					culture = { has_cultural_pillar = heritage_egyptian }
 				}
 			}
@@ -12855,7 +12855,7 @@ nubia.0221 = {
 				OR = {
 					religion = religion:kushitism_religion
 					religion = religion:islam_religion
-					faith = faith:miaphysitism
+					faith = rite:coptic_rite.faith
 					culture = { has_cultural_pillar = heritage_egyptian }
 					culture_has_mena_heritage_pillar_trigger = yes
 				}
@@ -16395,14 +16395,14 @@ nubia.0278 = {
 			any_courtier_or_guest = {
 				is_available_ai_adult = yes
 				is_female = yes
-				faith = faith:miaphysitism
+				faith = rite:coptic_rite.faith
 				NOT = { has_trait = cynical }
 				NOT = { has_trait = shy }
 			}
 			any_vassal = {
 				is_available_ai_adult = yes
 				is_female = yes
-				faith = faith:miaphysitism
+				faith = rite:coptic_rite.faith
 				NOT = { has_trait = cynical }
 				NOT = { has_trait = shy }
 			}
@@ -16443,7 +16443,7 @@ nubia.0278 = {
 				is_available_ai_adult = yes
 				is_female = yes
 				OR = {
-					faith = faith:miaphysitism
+					faith = rite:coptic_rite.faith
 					rite = {
 						rite_has_doctrine = special_doctrine_rice_doctrine_northeast_african_tattoo
 					}
@@ -16458,7 +16458,7 @@ nubia.0278 = {
 				is_available_ai_adult = yes
 				is_female = yes
 				OR = {
-					faith = faith:miaphysitism
+					faith = rite:coptic_rite.faith
 					rite = {
 						rite_has_doctrine = special_doctrine_rice_doctrine_northeast_african_tattoo
 					}
@@ -17030,7 +17030,7 @@ nubia.0281 = {
 			limit = {
 				religion = religion:islam_religion
 			}
-			faith:miaphysitism = {
+			rite:coptic_rite.faith = {
 				save_scope_as = old_faith
 			}
 		}
@@ -17913,7 +17913,7 @@ nubia.0289 = {
 	}
 
 	trigger = {
-		faith = faith:miaphysitism
+		faith = rite:coptic_rite.faith
 		NOT = { has_trait = cynical }
 	}
 

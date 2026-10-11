@@ -827,7 +827,8 @@ sus.0030 = {
 							template = RICE_trans_saharan_merchant_template
 							save_scope_as = RICE_trans_saharan_merchant_spawn
 							culture = culture:egyptian
-							faith = faith:miaphysitism
+							faith = rite:coptic_rite.faith
+							rite = rite:coptic_rite
 						}				
 					}
 					15 = {

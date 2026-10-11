@@ -11126,7 +11126,8 @@ north_atlantic.0090 = {
 								template = RICE_gaelic_thrall_template
 								save_scope_as = thrall
 								culture = culture:gaelic
-								faith = faith:catholic
+								faith = rite:roman_rite.faith
+								rite = rite:roman_rite
 							}				
 						}
 						10 = {
@@ -11135,7 +11136,8 @@ north_atlantic.0090 = {
 								template = RICE_gaelic_thrall_template
 								save_scope_as = thrall
 								culture = culture:welsh
-								faith = faith:catholic
+								faith = rite:roman_rite.faith
+								rite = rite:roman_rite
 							}				
 						}
 						10 = {
@@ -11152,7 +11154,8 @@ north_atlantic.0090 = {
 								template = RICE_gaelic_thrall_template
 								save_scope_as = thrall
 								culture = culture:anglo_saxon
-								faith = faith:catholic
+								faith = rite:roman_rite.faith
+								rite = rite:roman_rite
 							}				
 						}
 						10 = {
@@ -11167,7 +11170,8 @@ north_atlantic.0090 = {
 								template = RICE_gaelic_thrall_template
 								save_scope_as = thrall
 								culture = culture:english
-								faith = faith:catholic
+								faith = rite:roman_rite.faith
+								rite = rite:roman_rite
 							}				
 						}
 					}
@@ -11576,7 +11580,8 @@ north_atlantic.0091 = {
 								gender_female_chance = 100
 								save_scope_as = thrall
 								culture = culture:gaelic
-								faith = faith:catholic
+								faith = rite:roman_rite.faith
+								rite = rite:roman_rite
 							}				
 						}
 						10 = {
@@ -11586,7 +11591,8 @@ north_atlantic.0091 = {
 								gender_female_chance = 100
 								save_scope_as = thrall
 								culture = culture:welsh
-								faith = faith:catholic
+								faith = rite:roman_rite.faith
+								rite = rite:roman_rite
 							}				
 						}
 						10 = {
@@ -11604,7 +11610,8 @@ north_atlantic.0091 = {
 								gender_female_chance = 100
 								save_scope_as = thrall
 								culture = culture:anglo_saxon
-								faith = faith:catholic
+								faith = rite:roman_rite.faith
+								rite = rite:roman_rite
 							}				
 						}
 						10 = {
@@ -11620,7 +11627,8 @@ north_atlantic.0091 = {
 								gender_female_chance = 100
 								save_scope_as = thrall
 								culture = culture:english
-								faith = faith:catholic
+								faith = rite:roman_rite.faith
+								rite = rite:roman_rite
 							}				
 						}
 					}

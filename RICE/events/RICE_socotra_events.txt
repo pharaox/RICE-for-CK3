@@ -309,7 +309,10 @@ socotra.0001 = {
 							# Set religion randomly - Hindu, Buddhist, Nestorian, Muslim, or Socotran ruler's religion (if it's something else)
 							random_list = {
 								10 = { }
-								40 = { set_character_faith = faith:miaphysitism }
+								40 = {
+									set_character_faith = rite:coptic_rite.faith
+									set_character_rite = rite:coptic_rite
+								}
 							}
 						}
 					}
@@ -544,7 +547,10 @@ socotra.0001 = {
 									# Set religion randomly - Hindu, Buddhist, Nestorian, Muslim, or Socotran ruler's religion (if it's something else)
 									random_list = {
 										10 = { }
-										40 = { set_character_faith = faith:miaphysitism }
+										40 = {
+											set_character_faith = rite:coptic_rite.faith
+											set_character_rite = rite:coptic_rite
+										}
 									}
 								}
 							}
@@ -909,7 +915,7 @@ socotra.0010 = {
 					template = socotran_runaway_slave_character_template
 					save_scope_as = scope_RICE_socotran_spawn_runaway_slave
 					culture = culture:ethiopian
-					faith = faith:miaphysitism
+					faith = rite:ethiopian_rite.faith
 					rite = rite:ethiopian_rite
 				}			
 			}
@@ -928,7 +934,7 @@ socotra.0010 = {
 					template = socotran_runaway_slave_character_template
 					save_scope_as = scope_RICE_socotran_spawn_runaway_slave
 					culture = culture:nubian
-					faith = faith:miaphysitism
+					faith = rite:nubian_rite.faith
 					rite = rite:nubian_rite
 				}			
 			}
@@ -1068,7 +1074,7 @@ socotra.0011 = {
 					template = socotran_runaway_slave_female_character_template
 					save_scope_as = scope_RICE_socotran_spawn_runaway_slave_female
 					culture = culture:ethiopian
-					faith = faith:miaphysitism
+					faith = rite:ethiopian_rite.faith
 					rite = rite:ethiopian_rite
 				}			
 			}
@@ -1087,7 +1093,7 @@ socotra.0011 = {
 					template = socotran_runaway_slave_female_character_template
 					save_scope_as = scope_RICE_socotran_spawn_runaway_slave_female
 					culture = culture:nubian
-					faith = faith:miaphysitism
+					faith = rite:nubian_rite.faith
 					rite = rite:nubian_rite
 				}			
 			}
@@ -1453,7 +1459,8 @@ socotra.0013 = {
 					template = indian_ocean_merchant_template
 					save_scope_as = scope_RICE_socotran_merchant_spawn
 					culture = culture:egyptian
-					faith = faith:miaphysitism
+					faith = rite:coptic_rite.faith
+					rite = rite:coptic_rite
 				}				
 			}
 			20 = {
@@ -1486,7 +1493,7 @@ socotra.0013 = {
 					template = indian_ocean_merchant_template
 					save_scope_as = scope_RICE_socotran_merchant_spawn
 					culture = culture:ethiopian
-					faith = faith:miaphysitism
+					faith = rite:ethiopian_rite.faith
 					rite = rite:ethiopian_rite
 				}				
 			}
@@ -1580,7 +1587,8 @@ socotra.0013 = {
 					template = indian_ocean_merchant_template
 					save_scope_as = scope_RICE_socotran_merchant_spawn
 					culture = culture:greek
-					faith = faith:orthodox
+					faith = rite:byzantine_rite.faith
+					rite = rite:byzantine_rite
 					after_creation = {
 						# Set religion randomly - Hindu, Buddhist, Nestorian, Muslim, or Socotran ruler's religion (if it's something else)
 						if = {
@@ -1598,7 +1606,8 @@ socotra.0013 = {
 					template = indian_ocean_merchant_template
 					save_scope_as = scope_RICE_socotran_merchant_spawn
 					culture = culture:greek
-					faith = faith:armenian_apostolic
+					faith = rite:armenian_rite.faith
+					rite = rite:armenian_rite
 					after_creation = {
 						# Set religion randomly - Hindu, Buddhist, Nestorian, Muslim, or Socotran ruler's religion (if it's something else)
 						if = {
@@ -1880,7 +1889,8 @@ socotra.0014 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_sailor_spawn
 					culture = culture:egyptian
-					faith = faith:miaphysitism
+					faith = rite:coptic_rite.faith
+					rite = rite:coptic_rite
 				}				
 			}
 			20 = {
@@ -1913,7 +1923,7 @@ socotra.0014 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_sailor_spawn
 					culture = culture:ethiopian
-					faith = faith:miaphysitism
+					faith = rite:ethiopian_rite.faith
 					rite = rite:ethiopian_rite
 				}				
 			}
@@ -2007,7 +2017,8 @@ socotra.0014 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_sailor_spawn
 					culture = culture:greek
-					faith = faith:orthodox
+					faith = rite:byzantine_rite.faith
+					rite = rite:byzantine_rite
 					after_creation = {
 						# Set religion randomly - Hindu, Buddhist, Nestorian, Muslim, or Socotran ruler's religion (if it's something else)
 						if = {
@@ -2025,7 +2036,8 @@ socotra.0014 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_sailor_spawn
 					culture = culture:greek
-					faith = faith:armenian_apostolic
+					faith = rite:armenian_rite.faith
+					rite = rite:armenian_rite
 					after_creation = {
 						# Set religion randomly - Hindu, Buddhist, Nestorian, Muslim, or Socotran ruler's religion (if it's something else)
 						if = {
@@ -2305,7 +2317,8 @@ socotra.0015 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_traveler_spawn
 					culture = culture:egyptian
-					faith = faith:miaphysitism
+					faith = rite:coptic_rite.faith
+					rite = rite:coptic_rite
 				}				
 			}
 			20 = {
@@ -2338,7 +2351,7 @@ socotra.0015 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_traveler_spawn
 					culture = culture:ethiopian
-					faith = faith:miaphysitism
+					faith = rite:ethiopian_rite.faith
 					rite = rite:ethiopian_rite
 				}				
 			}
@@ -2432,7 +2445,8 @@ socotra.0015 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_traveler_spawn
 					culture = culture:greek
-					faith = faith:orthodox
+					faith = rite:byzantine_rite.faith
+					rite = rite:byzantine_rite
 					after_creation = {
 						# Set religion randomly - Hindu, Buddhist, Nestorian, Muslim, or Socotran ruler's religion (if it's something else)
 						if = {
@@ -2450,7 +2464,8 @@ socotra.0015 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_traveler_spawn
 					culture = culture:greek
-					faith = faith:armenian_apostolic
+					faith = rite:armenian_rite.faith
+					rite = rite:armenian_rite
 					after_creation = {
 						# Set religion randomly - Hindu, Buddhist, Nestorian, Muslim, or Socotran ruler's religion (if it's something else)
 						if = {

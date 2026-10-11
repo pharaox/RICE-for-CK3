@@ -1629,7 +1629,7 @@ sicily.0030 = {
 				10 = { culture:saxon = { save_scope_as = sicily_culture } }
 				20 = { culture:lombard = { save_scope_as = sicily_culture } }
 			}
-			faith:catholic = { save_scope_as = sicily_faith }
+			rite:roman_rite.faith = { save_scope_as = sicily_faith }
 			capital_county = {
 				save_scope_as = county
 			}
@@ -1744,7 +1744,7 @@ sicily.0030 = {
 				10 = { culture:armenian = { save_scope_as = sicily_culture } }
 				10 = { culture:bulgarian = { save_scope_as = sicily_culture } }
 			}
-			faith:orthodox = { save_scope_as = sicily_faith }
+			rite:byzantine_rite.faith = { save_scope_as = sicily_faith }
 			capital_county = {
 				save_scope_as = county
 			}
@@ -4840,7 +4840,7 @@ sicily.0102 = {
 				10 = { culture:saxon = { save_scope_as = sicily_culture } }
 				20 = { culture:lombard = { save_scope_as = sicily_culture } }
 			}
-			faith:catholic = { save_scope_as = sicily_faith }
+			rite:roman_rite.faith = { save_scope_as = sicily_faith }
 			capital_county = {
 				save_scope_as = county
 			}
@@ -4956,7 +4956,7 @@ sicily.0102 = {
 				10 = { culture:armenian = { save_scope_as = sicily_culture } }
 				10 = { culture:bulgarian = { save_scope_as = sicily_culture } }
 			}
-			faith:orthodox = { save_scope_as = sicily_faith }
+			rite:byzantine_rite.faith = { save_scope_as = sicily_faith }
 			capital_county = {
 				save_scope_as = county
 			}
@@ -6410,7 +6410,7 @@ sicily.0107 = {
 				10 = { culture:saxon = { save_scope_as = sicily_culture } }
 				20 = { culture:lombard = { save_scope_as = sicily_culture } }
 			}
-			faith:catholic = { save_scope_as = sicily_faith }
+			rite:roman_rite.faith = { save_scope_as = sicily_faith }
 			capital_county = {
 				save_scope_as = county
 			}
@@ -6445,7 +6445,7 @@ sicily.0107 = {
 				10 = { culture:armenian = { save_scope_as = sicily_culture } }
 				10 = { culture:bulgarian = { save_scope_as = sicily_culture } }
 			}
-			faith:orthodox = { save_scope_as = sicily_faith }
+			rite:byzantine_rite.faith = { save_scope_as = sicily_faith }
 			capital_county = {
 				save_scope_as = county
 			}
@@ -11910,8 +11910,8 @@ sicily.0234 = {
 				}
 			}
 			random_list = {
-				70 = { faith:catholic = { save_scope_as = sicily_faith } }
-				20 = { faith:orthodox = { save_scope_as = sicily_faith } }
+				70 = { rite:roman_rite.faith = { save_scope_as = sicily_faith } }
+				20 = { rite:byzantine_rite.faith = { save_scope_as = sicily_faith } }
 				10 = { scope:county.faith = { save_scope_as = sicily_faith } }
 			}
 		}
@@ -11924,8 +11924,8 @@ sicily.0234 = {
 				}
 			}
 			random_list = {
-				70 = { faith:orthodox = { save_scope_as = sicily_faith } }
-				20 = { faith:catholic = { save_scope_as = sicily_faith } }
+				70 = { rite:byzantine_rite.faith = { save_scope_as = sicily_faith } }
+				20 = { rite:roman_rite.faith = { save_scope_as = sicily_faith } }
 				10 = { scope:county.faith = { save_scope_as = sicily_faith } }
 			}
 		}
