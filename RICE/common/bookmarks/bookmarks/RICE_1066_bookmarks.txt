@@ -402,7 +402,7 @@ bm_1066_rice_2 = {
 			type = male
 			birth = 1004.1.1
 			culture = persian
-			religion = shafii
+			religion = ismaili
 			history_id = persian_scholars_3
 		
 			animation = personality_compassionate # reception_groom_left
@@ -1037,7 +1037,7 @@ bm_1066_rice_5 = {
 			type = male
 			birth = 1015.1.1
 			culture = maluku
-			religion = tolotang
+			religion = halmahera_pagan
 			history_id = maluku_ternate_07_fic
 		
 			animation = war_attacker
