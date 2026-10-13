@@ -20,7 +20,7 @@
 	}
 	faiths = {
 		# Christian
-		catholic christian_faith
+		catholic orthodox christian_faith
 		# Pagan
 		norse_pagan inuit_pagan
 		# algonquian_pagan

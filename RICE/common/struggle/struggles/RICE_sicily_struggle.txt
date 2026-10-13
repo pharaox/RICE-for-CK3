@@ -42,6 +42,7 @@
 		# Christian
 		catholic
 		orthodox
+		christian_faith
 
 		# Muslim
 		sunni
