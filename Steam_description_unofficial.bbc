@@ -17,6 +17,9 @@ CK3 1.20 changed how religions work: many former faiths became rites of a broade
 [*] Restored the Greenland and Sri Lanka struggle legend seeds, which were disabled in the beta.
 [*] Fixed faith conversions at game start and in events and decisions, which failed under the new 1.20 conversion rules.
 [*] Fixed RICE's landless adventurers not being playable, a known issue of the beta.
+[*] Fixed Christian faiths before and after the Great Schism, e.g. Christians being interlopers in the Normandy and Sicily struggles, and Icelandic rulers not converting to Insular.
+[*] Fixed decisions with option lists skipping their options and going straight to confirmation.
+[*] Fixed the Nile River situation ending after its first year.
 [*] Fixed a number of bugs found while testing, e.g. effects applied twice, scope errors, and broken localization references.
 [/list]
 
@@ -31,6 +34,7 @@ Some changes needed decisions only the author can make. Until then, this update 
 [*] [b]Manichean revival[/b] no longer offers a tenet swap, as monasticism is no longer a tenet in 1.20.
 [*] [b]Placeholder faiths[/b] stay disabled, as in the beta.
 [*] [b]Bookmarks:[/b] Zunbil Firuz (867) follows his history (Sunni) instead of the bookmark text.
+[*] [b]Nile River forecasts[/b] always come true, as the 1.20 engine ends the situation when the next flood is picked at random.
 [*] [b]Unfinished beta content[/b] (e.g. the Sammitiya Buddhists in Sindh) is skipped until the missing characters are added.
 [/list]
 
