@@ -56,6 +56,7 @@ RICE_khwarezm_establish_cult_center = {
 		#decision_has_second_step = yes
 		#decision_custom_widget_container = "custom_widgets_container_step_two"
 		decision_to_second_step_button = "RICE_khwarezm_establish_cult_center_type" 
+		show_from_start = yes
 
 		item = {
 			value = RICE_yazata_anahita_cult_center_option
@@ -835,6 +836,7 @@ RICE_khwarezm_worship_yazata = {
 		#decision_has_second_step = yes
 		#decision_custom_widget_container = "custom_widgets_container_step_two"
 		decision_to_second_step_button = "RICE_khwarezm_worship_yazata_type" 
+		show_from_start = yes
 
 		item = {
 			value = RICE_yazata_anahita_option

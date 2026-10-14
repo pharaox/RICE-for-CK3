@@ -1036,6 +1036,7 @@ RICE_india_land_grant_decision = {
 		#decision_has_second_step = yes
 		#decision_custom_widget_container = "custom_widgets_container_step_two"
 		decision_to_second_step_button = "RICE_india_land_grant_type" 
+		show_from_start = yes
 
 		item = {							
 			value = RICE_india_land_grant_buddhism_option
@@ -1280,6 +1281,7 @@ RICE_sri_lanka_support_monastery = {
 		#decision_has_second_step = yes
 		#decision_custom_widget_container = "custom_widgets_container_step_two"
 		decision_to_second_step_button = "RICE_sri_lanka_support_monastery_type" 
+		show_from_start = yes
 
 		item = {	
 			value = RICE_sri_lanka_support_monastery_almsgiving_option
@@ -1808,6 +1810,7 @@ RICE_sri_lanka_persecute_monastery = {
 		#decision_has_second_step = yes
 		#decision_custom_widget_container = "custom_widgets_container_step_two"
 		decision_to_second_step_button = "RICE_sri_lanka_persecute_monastery_type" 
+		show_from_start = yes
 
 		item = {	
 			value = RICE_sri_lanka_persecute_monastery_burn_books_option
@@ -2612,6 +2615,7 @@ RICE_sri_lanka_worship_local_deities = {
 		#decision_has_second_step = yes
 		#decision_custom_widget_container = "custom_widgets_container_step_two"
 		decision_to_second_step_button = "RICE_sri_lanka_worship_local_deities_type" 
+		show_from_start = yes
 
 		item = {		
 			value = RICE_sri_lanka_worship_local_deities_upulvan_option

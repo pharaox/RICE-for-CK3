@@ -2486,6 +2486,7 @@ RICE_north_atlantic_hunting_trip = {
 		#decision_has_second_step = yes
 		#decision_custom_widget_container = "custom_widgets_container_step_two"
 		decision_to_second_step_button = "RICE_north_atlantic_nordsetur_hunt_type" 
+		show_from_start = yes
 
 
 
@@ -2812,6 +2813,7 @@ RICE_north_atlantic_support_greenland = {
 		#decision_has_second_step = yes
 		#decision_custom_widget_container = "custom_widgets_container_step_two"
 		decision_to_second_step_button = "RICE_north_atlantic_greenland_aid_type" 
+		show_from_start = yes
 
 
 
@@ -3260,6 +3262,7 @@ RICE_north_atlantic_support_vinland = {
 		#decision_has_second_step = yes
 		#decision_custom_widget_container = "custom_widgets_container_step_two"
 		decision_to_second_step_button = "RICE_north_atlantic_vinland_aid_type" 
+		show_from_start = yes
 
 
 
@@ -3504,6 +3507,7 @@ RICE_north_atlantic_explore_americas = {
 		#decision_has_second_step = yes
 		#decision_custom_widget_container = "custom_widgets_container_step_two"
 		decision_to_second_step_button = "RICE_north_atlantic_pick_expedition_destination_type" 
+		show_from_start = yes
 
 		# AI option
 		item = {

@@ -425,6 +425,7 @@ RICE_khuzestan_repair_shushtar_hydraulics = {
 		#decision_has_second_step = yes
 		#decision_custom_widget_container = "custom_widgets_container_step_two"
 		decision_to_second_step_button = "RICE_khuzestan_pick_shushtar_hydraulics" 
+		show_from_start = yes
 
 
 		# Dams
