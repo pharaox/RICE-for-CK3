@@ -65,7 +65,7 @@ The beta also contained the unfinished [b]"Jats and Sammitiya"[/b] flavor pack, 
 [list]
 [*] Use this mod [b]instead of[/b] the original RICE, never both. Disable the original RICE in your playset.
 [*] Load it in the same place as the original RICE.
-[*] Only RICE itself is updated. RICE compatibility patches (e.g. RICE + EPE) are not part of this update.
+[*] Only RICE itself is updated. RICE works with EPE without any compatibility patch. The only difference is that RICE's own cultures use RICE appearances instead of EPE's. The existing RICE + EPE patch still works on 1.20 if you want EPE appearances for them, but it's outdated and undoes some minor RICE changes (traditions for a few cultures, some coats of arms and bookmark portraits).
 [/list]
 
 [h2]Reporting issues[/h2]
