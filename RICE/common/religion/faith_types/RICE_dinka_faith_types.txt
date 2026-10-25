@@ -35,8 +35,8 @@ nuba_pagan = {
 	faith_details = {
 		religion = dinka_religion
 		color = { 215 108 66 }
-		icon = nuba
-		reformed_icon = nuba_reformed
+		icon = nuba_pagan
+		reformed_icon = nuba_pagan_reformed
 	}
 
 	localization = {
@@ -82,8 +82,8 @@ turkana_pagan = {
 	faith_details = {
 		religion = dinka_religion
 		color = { 171 88 8 }
-		icon = turkana
-		reformed_icon = turkana_reformed
+		icon = turkana_pagan
+		reformed_icon = turkana_pagan_reformed
 	}
 
 	localization = {
