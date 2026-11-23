@@ -30,7 +30,7 @@ Start **867** as the **Ganzhou Uyghur ruler**, who holds Heihe (`c_heihe`).
 ### 1.2 Rites, traditions and holy sites (15 min)
 
 - **Rite names:** open the "Uyghur Manichean Church" decision (`RICE_uyghur_manichean_church_decision`), or another RICE Manichean decision you see. Its texts name the Manichean and other rites, with no gaps where a name should be. Check the same text in one other language.
-- **Silk Road:** the Uyghur and Tocharian cultures have RICE's Silk Road tradition, and neither Caravaneers nor Silk Road Traders. **(optional)** Repeat without Silk and Silver.
+- **Trade traditions:** with Silk and Silver, the Uyghur, Tocharian, Sogdian and Saka cultures have vanilla's Silk Road Entrepreneurs, not RICE's People of the Silk Road, and the Malinke and Songhai have Saharan Traders, not Gold Dust Traders. The Bactrians, Khotanese and Radhanites still have People of the Silk Road. **(optional)** Without Silk and Silver, all of these have RICE's traditions, and the Uyghurs and Tocharians have no Caravaneers.
 - **Tenets of rites:** in the faith view, the Mandaean rite has Communal Identity instead of Christian Syncretism, and the Valentinian rite has Christian Syncretism instead of Esotericism.
 - **Restored holy sites:** the Meroitic (`meroitic_pagan`), Arabic pagan (`arabic_pagan`) and Bahnar (`bahnar_pagan`) faiths list the Napata (Meroe), Yamama and Preah Vihear holy sites, with names and modifiers. A faith with no adherents is missing from the religion view: convert yourself with `effect set_character_faith = faith:<key>`, check your own faith, and convert back.
 - **Rome:** the Sawdan aspiration (held by the ruler of Bari) names Roma, not Vaticano, in its "Control Rome" objective.
