@@ -1,6 +1,6 @@
 NAME := RICE_unofficial
 TITLE := RICE Unofficial Update
-VERSION := 1.20.0
+VERSION := 1.21.0
 SRC := RICE
 
 .PHONY: tiger
